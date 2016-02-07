@@ -31,8 +31,8 @@ class DetailViewController: UIViewController {
             if let noteTitleLabel = self.noteTitleLabel {
                 noteTitleLabel.text = detail.valueForKey("title")!.description
             }
-            if let noteDescriptionLabel = self.noteBodyLabel {
-                noteDescriptionLabel.text = detail.valueForKey("body")!.description
+            if let noteBodyLabel = self.noteBodyLabel {
+                noteBodyLabel.text = detail.valueForKey("body")!.description
             }
         }
     }
@@ -47,6 +47,16 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showCreateNote" {
+            print("showCreateNote prepareForSegue was triggered")
+                let controller = (segue.destinationViewController as! UINavigationController).topViewController as! CreateNoteViewController
+                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
+                controller.navigationItem.leftItemsSupplementBackButton = true
+        }
+    }
+    
 
 
 }

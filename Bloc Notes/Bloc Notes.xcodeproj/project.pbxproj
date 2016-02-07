@@ -14,6 +14,7 @@
 		B5F242791C5AEF83002B8DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F242771C5AEF83002B8DFF /* Main.storyboard */; };
 		B5F2427B1C5AEF83002B8DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F2427A1C5AEF83002B8DFF /* Assets.xcassets */; };
 		B5F2427E1C5AEF83002B8DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F2427C1C5AEF83002B8DFF /* LaunchScreen.storyboard */; };
+		B5F242D41C5EAFE0002B8DFF /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F242D31C5EAFE0002B8DFF /* CreateNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B5F2427A1C5AEF83002B8DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5F2427D1C5AEF83002B8DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5F2427F1C5AEF83002B8DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F242D31C5EAFE0002B8DFF /* CreateNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B5F2426E1C5AEF83002B8DFF /* AppDelegate.swift */,
 				B5F242731C5AEF83002B8DFF /* MasterViewController.swift */,
 				B5F242751C5AEF83002B8DFF /* DetailViewController.swift */,
+				B5F242D31C5EAFE0002B8DFF /* CreateNoteViewController.swift */,
 				B5F242771C5AEF83002B8DFF /* Main.storyboard */,
 				B5F2427A1C5AEF83002B8DFF /* Assets.xcassets */,
 				B5F2427C1C5AEF83002B8DFF /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				B5F2426F1C5AEF83002B8DFF /* AppDelegate.swift in Sources */,
 				B5F242721C5AEF83002B8DFF /* Bloc_Notes.xcdatamodeld in Sources */,
 				B5F242741C5AEF83002B8DFF /* MasterViewController.swift in Sources */,
+				B5F242D41C5EAFE0002B8DFF /* CreateNoteViewController.swift in Sources */,
 				B5F242761C5AEF83002B8DFF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
